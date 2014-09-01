@@ -34,6 +34,9 @@
         <div id="mentions" class="large-12 columns text-center">
             Mentions légales | Mentions CNIL
         </div>
+        <div id="copyright" class="large-12 columns text-center">
+            © Junior APLICAEN 2014 - Tous droits réservés
+        </div>
     </footer>
 </div>
 <a class="exit-off-canvas"></a>

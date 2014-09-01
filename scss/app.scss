@@ -2,6 +2,7 @@
 @import "config/variables"; // Your custom variables
 @import "config/colors"; // Your custom color scheme
 @import "config/settings"; // Default settings file. Uncomment each setting you need to change
+@import "config/fonts"; // Fonts for the website
 
 /* Foundation 5 */
 @import "foundation"; // Foundation 5 by Zurb
@@ -11,36 +12,50 @@
 
 @import "../bower_components/foundation-icon-fonts/foundation-icons";
 
+#logo {
+    height: 95%;
+}
+
 $lh-right: 45px - 5px;
 
+h1, h2, h3, h4, h5 {
+    font-family: "Continuum", Helvetica, Arial, sans-serif;
+}
+
+#menu-menu-2-ouf .menu-item a {
+    font-family: "Continuum", Helvetica, Arial, sans-serif;
+}
+
 #menu-menu-2-ouf-1 .menu-item a {
-    border-bottom : 5px solid scale-color($primary-color, $lightness: +50%);
-    line-height : $lh-right;
+    border-bottom: 5px solid scale-color($primary-color, $lightness: +50%);
+    font-family: "Continuum", Helvetica, Arial, sans-serif;
+    line-height: $lh-right;
 }
 
 #menu-menu-2-ouf-1 .menu-item .dropdown .menu-item a {
-    border-bottom : 0;
+    border-bottom: 0;
 }
 
 #menu-right-top .menu-item a {
+    font-family: "Continuum", Helvetica, Arial, sans-serif;
     background-color: scale-color($alert-color, $lightness: +10%);
 }
 
 #menu-menu-2-ouf-1 .current_page_item a {
-    border-bottom : 5px solid $alert-color !important;
+    border-bottom: 5px solid $alert-color !important;
 }
 
 
 #menu-menu-2-ouf .current_page_item a {
-    border-bottom : 5px solid $alert-color !important;
+    border-bottom: 5px solid $alert-color !important;
 }
 
 .current-page-ancestor a {
-    border-bottom : 5px solid $alert-color !important;
+    border-bottom: 5px solid $alert-color !important;
 }
 
 .current-page-ancestor ul li a {
-    border-bottom : 0 !important;
+    border-bottom: 0 !important;
 }
 
 $footer-scale: 2rem;
@@ -55,9 +70,10 @@ footer.row {
     padding-bottom : $footer-scale;
 }
 
-p.footer-title {
+.footer-title {
     font-size: $footer-scale;
     margin-bottom: $footer-scale / 4;
+    font-family: "Continuum", Helvetica, Arial, sans-serif;
 }
 
 .information {
@@ -74,29 +90,37 @@ p.footer-title {
 
 $stage-scale: 10rem;
 
-.stage-dot {
+.stage {
     height : $stage-scale;
     line-height: $stage-scale;
 
-    .stage-circle {
-        width: $stage-scale * 0.75;
-        height: $stage-scale  * 0.75;
-        border-radius: 50%;
-        box-shadow: inset 0 0 3px rgba(0, 0, 0, .35);
-        transition: background-color .15s linear;
-        background-color: $primary-color;
-        display: inline-block;
-        line-height: $stage-scale  * 0.75;
-        vertical-align: middle;
+    .stage-dot {
+        background-image: url("svgs/ap-bande.svg");
+        background-position: center;
+        background-size: 10% 100%;
+        background-repeat: no-repeat;
 
-        .stage-number {
-            line-height: $stage-scale * 0.75;
+
+        .stage-circle {
+            width: $stage-scale * 0.75;
+            height: $stage-scale  * 0.75;
+            border-radius: 50%;
+            transition: background-color .15s linear;
+            background-color: $primary-color;
+            display: inline-block;
+            line-height: $stage-scale  * 0.75;
             vertical-align: middle;
-            font-family: helvetica, arial, sans-serif;
-            color: #ffffff;
-            font-size: $stage-scale / 5 * 2;
-            font-weight: bold;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+            border : 5px solid white;
+
+            .stage-number {
+                line-height: $stage-scale * 0.70;
+                vertical-align: middle;
+                font-family: helvetica, arial, sans-serif;
+                color: #ffffff;
+                font-size: $stage-scale / 5 * 2;
+                font-weight: bold;
+                text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+            }
         }
     }
 
@@ -111,3 +135,8 @@ $stage-scale: 10rem;
     }
 }
 
+// Landing page specifics
+
+.landing-logo {
+    height : 200px;
+}
