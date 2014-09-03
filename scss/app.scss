@@ -68,6 +68,9 @@ $footer-scale: 2rem;
 footer.row {
     padding-top : $footer-scale;
     padding-bottom : $footer-scale;
+    * {
+        color: $secondary-color;
+    }
 }
 
 .footer-title {
@@ -80,13 +83,14 @@ footer.row {
     font-size: $footer-scale / 1.5;
 }
 
-.information a {
-    color: $secondary-color;
-}
-
 #mentions {
     margin-top: $footer-scale;
+    line-height: $footer-scale;
+    #plaquette a {
+        color : $alert-color;
+    }
 }
+
 
 $stage-scale: 10rem;
 
@@ -95,29 +99,19 @@ $stage-scale: 10rem;
     line-height: $stage-scale;
 
     .stage-dot {
-        background-image: url("svgs/ap-bande.svg");
-        background-position: center;
-        background-size: 10% 100%;
-        background-repeat: no-repeat;
-
 
         .stage-circle {
-            width: $stage-scale * 0.75;
-            height: $stage-scale  * 0.75;
             border-radius: 50%;
             transition: background-color .15s linear;
             background-color: $primary-color;
             display: inline-block;
-            line-height: $stage-scale  * 0.75;
+            line-height: $stage-scale * 0.75;
             vertical-align: middle;
-            border : 5px solid white;
 
             .stage-number {
-                line-height: $stage-scale * 0.70;
                 vertical-align: middle;
                 font-family: helvetica, arial, sans-serif;
                 color: #ffffff;
-                font-size: $stage-scale / 5 * 2;
                 font-weight: bold;
                 text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
             }
@@ -134,6 +128,39 @@ $stage-scale: 10rem;
         }
     }
 }
+
+// Medium screens max
+@media only screen and (max-width: 40.063em) {
+    .stage-circle {
+        width: $stage-scale * 0.5;
+        height: $stage-scale  * 0.5;
+        border : $stage-scale * 0.02 solid white;
+        .stage-number {
+            line-height: $stage-scale * 0.49;
+            font-size: $stage-scale / 3;
+        }
+    }
+} /* max-width 641px, medium screens */
+
+// Medium screens min
+@media only screen and (min-width: 40.063em) {
+
+    .stage-dot {
+        background-image: url("svgs/ap-bande.svg");
+        background-position: center;
+        background-size: 10% 100%;
+        background-repeat: no-repeat;
+        .stage-circle {
+            width: $stage-scale * 0.75;
+            height: $stage-scale  * 0.75;
+            border : $stage-scale * 0.03 solid white;
+            .stage-number {
+                line-height: $stage-scale * 0.70;
+                font-size: $stage-scale / 5 * 2;
+            }
+        }
+    }
+} /* max-width 641px, medium screens */
 
 // Landing page specifics
 

@@ -2,7 +2,7 @@
     <nav class="top-bar" data-topbar="">
         <ul class="title-area">
             <li class="name">
-                <img id="logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/logo-aplicaen.png" />
+                <a href="/"><img id="logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/logo-aplicaen.png" /></a>
             </li>
         </ul>
         <section class="top-bar-section">

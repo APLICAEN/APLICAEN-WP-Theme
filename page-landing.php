@@ -28,7 +28,7 @@ get_header(); ?>
 
     <div class="row text-center">
         <div class="large-4 columns">
-            <img class="landing-logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/css/svgs/"/>
+            <img class="landing-logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/css/svgs/info.svg"/>
             <?php the_field("section_gauche"); ?>
         </div>
         <div class="large-4 columns">

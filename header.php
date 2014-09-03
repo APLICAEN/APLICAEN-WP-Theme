@@ -24,11 +24,7 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ; ?>/css/app.css" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/icons/foundation-icons.css" />
         
-        <link rel="icon" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-precomposed.png">
+        <link rel="icon" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icone.png">
         
         <?php wp_head(); ?>
     </head>
@@ -45,7 +41,7 @@
             <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
         </section>
         <section class="middle tab-bar-section">
-            <img id="logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/logo-aplicaen.png" />
+            <a href="/"><img id="logo" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/logo-aplicaen.png" /></a>
         </section>
     </nav>
 
