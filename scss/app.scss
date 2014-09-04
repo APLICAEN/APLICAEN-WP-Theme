@@ -20,6 +20,7 @@ $lh-right: 45px - 5px;
 
 h1, h2, h3, h4, h5 {
     font-family: "Continuum", Helvetica, Arial, sans-serif;
+    color: scale-color($primary-color, $lightness: +20%);
 }
 
 #menu-menu-2-ouf .menu-item a {
@@ -162,8 +163,40 @@ $stage-scale: 10rem;
     }
 } /* max-width 641px, medium screens */
 
-// Landing page specifics
+//Domaines de compétences
+$dc-top-bar-scale: 7rem;
 
+#dc-top-bar {
+    height: $dc-top-bar-scale;
+    margin-bottom: $dc-top-bar-scale;
+
+    div {
+        height: $dc-top-bar-scale;
+        a {
+            color: white;
+            width: 100%;
+        }
+    }
+}
+
+.dcinfo {
+    background-color: $info_color;
+}
+
+.dcepa {
+    background-color: $epa_color;
+}
+
+.dcmc {
+    background-color: $mc_color;
+}
+
+.comp_desc {
+    padding: $dc-top-bar-scale / 5;
+    margin-bottom: $dc-top-bar-scale / 3;
+}
+
+// Landing page specifics
 .landing-logo {
     height : 200px;
 }

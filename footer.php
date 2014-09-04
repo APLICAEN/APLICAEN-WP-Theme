@@ -7,7 +7,7 @@
 
         <div class="large-6 columns">
             <p class="footer-title">
-                Nous rencontrer
+                Contactez-nous !
             </p>
             <div class="information">
                 <i class="fi-mail"> contact@aplicaen.fr</i>

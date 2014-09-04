@@ -24,7 +24,7 @@ get_header(); ?>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
                             <h4>Demande</h4>
-                            <p>Vous nous soumettes votre demande par e-mail ou par téléphone.</p>
+                            <p>Vous nous soumettez votre demande par e-mail ou par téléphone.</p>
                         </div>
                     </div>
                 </div>
