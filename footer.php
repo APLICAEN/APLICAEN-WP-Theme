@@ -35,9 +35,9 @@
             <span id="plaquette">
                 <a href="#">Notre plaquette</a>
             </span>
-            | 
+            |
             <a href="#">Deposer un appel d'offre</a>
-            | 
+            |
             <a href="#">Mentions légales</a> 
         </div>
         <div id="copyright" class="large-12 columns text-center">
