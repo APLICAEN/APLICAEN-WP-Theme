@@ -33,15 +33,17 @@
 
         <div id="mentions" class="large-12 columns text-center">
             <span id="plaquette">
-                <a href="#">Notre plaquette</a>
+                <a href="http://aplicaen.fr/wp-content/uploads/2014/09/plaquette_aplicaen.pdf">Notre plaquette</a>
             </span>
             |
-            <a href="#">Deposer un appel d'offre</a>
+            <a href="http://aplicaen.fr/?page_id=63">Déposer un appel d'offre</a>
+            <!--
             |
-            <a href="#">Mentions légales</a> 
+            <a href="#">Mentions légales</a>
+            //-->
         </div>
         <div id="copyright" class="large-12 columns text-center">
-            © Junior APLICAEN 2014 - Tous droits réservés
+            © APLICAEN, élèves-entrepreneurs 2014 - Tous droits réservés
         </div>
     </footer>
 </div>

@@ -11,15 +11,9 @@ get_header(); ?>
             <ul class="example-orbit" data-orbit>
                 <li>
                     <img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/photo_groupe.JPG" />
-                    <div class="orbit-caption">
-                      Une équipe avec beaucoup trop de #swag.
-                    </div>
                 </li>
                 <li>
                     <img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/photo_groupe2.jpg" />
-                    <div class="orbit-caption">
-                      Caption Two.
-                    </div>
                 </li>
             </ul>
         </div>

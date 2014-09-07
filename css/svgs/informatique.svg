@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px"
+	 height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<g id="Fond">
+	<rect fill="#4F78BC" width="800" height="600"/>
+</g>
+<g id="PC">
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M588,288c0,6.627-5.373,12-12,12H225
+		c-6.627,0-12-5.373-12-12V79c0-6.627,5.373-12,12-12h351c6.627,0,12,5.373,12,12V288z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M565.5,268.28c0,5.368-5.119,10.22-10.964,10.22
+		H244.464c-5.845,0-10.964-4.852-10.964-10.22V98.72c0-5.368,5.119-9.22,10.964-9.22h310.072c5.845,0,10.964,3.852,10.964,9.22
+		V268.28z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M686,422.305c4,4.028-5.373,6.695-12,6.695H124
+		c-6.627,0-15.667-3-12-6.695l100-115.664C217.373,300,217.373,300,224,300h351c6.627,0,6.627,0,12,6.641L686,422.305z"/>
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M234,321c39.211,0,78.422,0,117.633,0c60.286,0,120.572,0,180.857,0c11.17,0,22.34,0,33.51,0
+				c3.224,0,3.224-5,0-5c-39.211,0-78.422,0-117.633,0c-60.286,0-120.572,0-180.857,0c-11.17,0-22.34,0-33.51,0
+				C230.776,316,230.776,321,234,321L234,321z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M213,347c36.116,0,72.232,0,108.348,0c63.518,0,127.036,0,190.554,0c25.366,0,50.732,0,76.099,0
+				c3.224,0,3.224-5,0-5c-36.116,0-72.232,0-108.348,0c-63.518,0-127.036,0-190.554,0c-25.366,0-50.732,0-76.099,0
+				C209.776,342,209.776,347,213,347L213,347z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M223.667,334c37.586,0,75.171,0,112.757,0c62.222,0,124.443,0,186.665,0c17.748,0,35.496,0,53.245,0
+				c3.224,0,3.224-5,0-5c-37.586,0-75.171,0-112.757,0c-62.222,0-124.443,0-186.665,0c-17.748,0-35.496,0-53.245,0
+				C220.442,329,220.442,334,223.667,334L223.667,334z"/>
+		</g>
+	</g>
+	<path fill="#FFFFFF" d="M476,398c2.125,7.125-5.373,12-12,12H341c-6.627,0-14.125-5.25-12-12l6-21c2.498-7.319,5.373-12,12-12h111
+		c6.627,0,9.987,5.348,12,12L476,398z"/>
+</g>
+<g id="Calque_3">
+	<text transform="matrix(1 0 0 1 257.0002 123.0003)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">#include &lt;stdio.h&gt;</tspan><tspan x="0" y="43.2" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">void main (void)</tspan><tspan x="0" y="64.8" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">{</tspan><tspan x="0" y="86.4" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18" letter-spacing="30">	</tspan><tspan x="36" y="86.4" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">printf(’’Hello World ! \n’’);</tspan><tspan x="0" y="108" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18" letter-spacing="30">	</tspan><tspan x="36" y="108" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">return 0;</tspan><tspan x="0" y="129.6" fill="#FFFFFF" font-family="'ContinuumMedium'" font-size="18">}</tspan></text>
+</g>
+</svg>

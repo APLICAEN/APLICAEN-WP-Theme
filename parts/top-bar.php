@@ -1,4 +1,4 @@
-<div class="top-bar-container contain-to-grid show-for-large-up text-justify">
+<div class="top-bar-container contain-to-grid show-for-large-up">
     <nav class="top-bar" data-topbar="">
         <ul class="title-area">
             <li class="name">

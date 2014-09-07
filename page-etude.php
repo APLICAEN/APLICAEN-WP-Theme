@@ -23,8 +23,9 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Demande</h4>
-                            <p>Vous nous soumettez votre demande par e-mail ou par téléphone.</p>
+                            <h4>Dépôt de l’appel d’offre</h4>
+                            <p>Vous pouvez soumettre votre demande <a href="http://aplicaen.fr/wordpress/?page_id=63">directement sur notre site internet</a>, 
+                            en nous envoyant un <a href="mailto:contact@aplicaen.fr">email</a> ou par courrier.</p>
                         </div>
                     </div>
                 </div>
@@ -37,8 +38,8 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Contact</h4>
-                            <p>Nous vous répondons sous 48 heures pour confirmer que le project est dans nos domaines de compétences.</p>
+                            <h4>Attribution d’un chargé de mission</h4>
+                            <p>Dès la réception de votre appel d’offre, nous désignerons un chef de projet. Il sera votre interlocuteur privilégié durant toute la durée de l’étude.</p>
                         </div>
                     </div>
                 </div>
@@ -51,8 +52,8 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Analyse</h4>
-                            <p>Elaboration du cahier des charges, du planning et du buget.</p>
+                            <h4>Contact</h4>
+                            <p>Le chef de projet vous répondra rapidement pour confirmer que l’étude est dans nos domaines de compétences.</p>
                         </div>
                     </div>
                 </div>
@@ -65,8 +66,8 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Recrutement</h4>
-                            <p>Sélection des intervenants et d'un chargé de mission qui sera votre interlocuteur privilégié durant la misson.</p>
+                            <h4>Analyse</h4>
+                            <p>Le chef de projet vous accompagnera dans la rédaction d’un cahier des charges et établira  un planning et un budget. Une proposition commerciale vous sera alors faite.</p>
                         </div>
                     </div>
                 </div>
@@ -79,8 +80,8 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Suivi</h4>
-                            <p>Contact hebdomadaire avec le client.</p>
+                            <h4>Recrutement des intervenants</h4>
+                            <p>Le chef de projet recrutera, parmi les 700 élèves de l’ENSICAEN, des intervenants et constituera alors l’équipe qui répondra à vos besoins.</p>
                         </div>
                     </div>
                 </div>
@@ -93,8 +94,23 @@ get_header(); ?>
                     </div>
                     <div class="small-9 large-9 columns">
                         <div class="stage-text">
-                            <h4>Résultat</h4>
-                            <p>Remise du rapport et facturation.</p>
+                            <h4>Suivi</h4>
+                            <p>Dès le début de l’étude, nous vous assurons un suivi régulier.
+                            <br/>En effet, le chef de projet prendra contact avec vous au moins une fois par semaine par mail et/ou réunion afin de vous informer de l’avancement du projet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stage-line">
+                    <div class="small-3 large-3 columns text-center stage-dot">
+                        <div class="stage-circle center">
+                            <p class="stage-number">7</p>
+                        </div>
+                    </div>
+                    <div class="small-9 large-9 columns">
+                        <div class="stage-text">
+                            <h4>Clôture de l’étude</h4>
+                            <p>Nous vous présentons nos conclusions et vous remettons les livrables.</p>
                         </div>
                     </div>
                 </div>

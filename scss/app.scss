@@ -23,41 +23,37 @@ h1, h2, h3, h4, h5 {
     color: scale-color($primary-color, $lightness: +20%);
 }
 
-#menu-menu-2-ouf .menu-item a {
-    font-family: "Continuum", Helvetica, Arial, sans-serif;
+
+// Styling nav bar
+.active a {
+    border-bottom: 5px solid $alert-color !important;
 }
 
 #menu-menu-2-ouf-1 .menu-item a {
     border-bottom: 5px solid scale-color($primary-color, $lightness: +50%);
     font-family: "Continuum", Helvetica, Arial, sans-serif;
+    font-weight: normal;
     line-height: $lh-right;
 }
 
-#menu-menu-2-ouf-1 .menu-item .dropdown .menu-item a {
-    border-bottom: 0;
-}
-
-#menu-right-top .menu-item a {
+.menu-item a {
+    font-weight: normal;
     font-family: "Continuum", Helvetica, Arial, sans-serif;
-    background-color: scale-color($alert-color, $lightness: +10%);
 }
 
-#menu-menu-2-ouf-1 .current_page_item a {
-    border-bottom: 5px solid $alert-color !important;
+.inactive a {
+    border-bottom: 5px solid scale-color($primary-color, $lightness: +50%) !important;
 }
 
-
-#menu-menu-2-ouf .current_page_item a {
-    border-bottom: 5px solid $alert-color !important;
-}
-
-.current-page-ancestor a {
-    border-bottom: 5px solid $alert-color !important;
-}
-
-.current-page-ancestor ul li a {
+.has-dropdown .inactive a {
     border-bottom: 0 !important;
 }
+
+.menu-item-appel-offre a {
+    background-color: $alert-color !important;
+    border-bottom: 5px solid $alert-color !important;
+}
+
 
 $footer-scale: 2rem;
 
@@ -199,4 +195,10 @@ $dc-top-bar-scale: 7rem;
 // Landing page specifics
 .landing-logo {
     height : 200px;
+}
+
+.comp-logo {
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
 }
