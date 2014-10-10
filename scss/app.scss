@@ -54,7 +54,6 @@ h1, h2, h3, h4, h5 {
     border-bottom: 5px solid $alert-color !important;
 }
 
-
 $footer-scale: 2rem;
 
 .footer-bg {
@@ -201,4 +200,123 @@ $dc-top-bar-scale: 7rem;
   margin-left: auto;
   margin-right: auto;
   height: 60px;
+}
+
+/*********************************************
+ * ROLLING LINKS
+ *********************************************/
+
+.roll {
+    display: inline-block; /* give it a layout */    
+    overflow: hidden;
+    vertical-align: top; /* just to be sure */
+
+    /*
+     * The smaller the number the closer you look at this  element
+    */
+    -webkit-perspective: 400px;
+       -moz-perspective: 400px;
+        -ms-perspective: 400px;
+            perspective: 400px;
+
+    /*
+     * Relative position of the POV
+     * Default is 50% 50% so not necessary
+    */
+    -webkit-perspective-origin: 50% 50%;
+       -moz-perspective-origin: 50% 50%;
+        -ms-perspective-origin: 50% 50%;
+            perspective-origin: 50% 50%;    
+
+}
+
+.roll:hover {
+    background: none;
+    text-shadow: none;
+}
+
+.roll span {
+    display: block; /* give it a layout */ 
+    position: relative;
+    padding: 0 2px;
+
+    pointer-events: none;
+
+    /* duration */
+    -webkit-transition: all 200ms ease;
+       -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+            transition: all 200ms ease;
+
+    -webkit-transform-origin: 50% 0%; /* posx posy */
+       -moz-transform-origin: 50% 0%;
+        -ms-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    /*
+    * CSS3 transform-style explained here:
+    * http://www.webkit.org/blog-files/3d-transforms/transform-style.html
+    */
+}
+
+.roll:hover span {
+    background: rgba(0,0,0,0.5);
+
+    -webkit-transform: translate3d( 0px, 0px, -45px ) rotateX( 90deg );
+       -moz-transform: translate3d( 0px, 0px, -45px ) rotateX( 90deg );
+        -ms-transform: translate3d( 0px, 0px, -45px ) rotateX( 90deg );
+            transform: translate3d( 0px, 0px, -45px ) rotateX( 90deg );
+}
+
+
+/* ======================= */
+/* = Face after rotation = */
+/* ======================= */
+.roll span:after {
+    content: attr(data-title);
+    display: block; /* maybe its not necessary */
+    position: absolute; /* position over  */
+    left: 0;
+    top: 0;
+
+    color: #fff;
+    background: $alert-color;
+
+    -webkit-transform-origin: 50% 0%;
+       -moz-transform-origin: 50% 0%;
+        -ms-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    
+    /* 
+    * translate3d => move up element to the top 
+    *     rotateX => rotate till hidden
+    */
+    -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+        -ms-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+            transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+.top-bar-section > ul {
+    width: 82%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+}
+.top-bar-section > ul > li {
+    float: none;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+}
+.top-bar-section > ul > li > a {
+    white-space: nowrap;
+    text-align: center;
 }

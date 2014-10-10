@@ -47,7 +47,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'js/foundation/js/foundation.min.js',
-          'js/init-foundation.js'
+          'js/init-foundation.js',
+          'js/rolling-links.js'
         ],
 
         dest: 'js/app.js'

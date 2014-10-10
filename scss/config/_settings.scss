@@ -771,12 +771,12 @@ $off-canvas-overlay-transition: background 300ms ease;
 // We use these to control the left/right nav styles
 // $orbit-nav-bg: transparent;
 // $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: #fff;
-// $orbit-nav-arrow-color-hover: #fff;
+$orbit-nav-arrow-color: $primary-color;
+$orbit-nav-arrow-color-hover: $primary-color;
 
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
-// $orbit-timer-show-progress-bar: true;
+$orbit-timer-show-progress-bar: false;
 
 // We use these to control the bullet nav styles
 // $orbit-bullet-nav-color: #ccc;
@@ -789,13 +789,13 @@ $off-canvas-overlay-transition: background 300ms ease;
 // $orbit-slide-number-padding: rem-calc(5);
 
 // Hide controls on small
-// $orbit-nav-hide-for-small: true;
-// $orbit-bullet-hide-for-small: true;
-// $orbit-timer-hide-for-small: true;
+$orbit-nav-hide-for-small: true;
+$orbit-bullet-hide-for-small: true;
+$orbit-timer-hide-for-small: true;
 
 // Graceful Loading Wrapper and preloader
-// $wrapper-class: "slideshow-wrapper";
-// $preloader-class: "preloader";
+$wrapper-class: "slideshow-wrapper";
+$preloader-class: "preloader";
 
 // Pagination
 
