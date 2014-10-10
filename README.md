@@ -1,6 +1,6 @@
 # APLICAEN-Theme
 
-Thème Wordpress pour le site d'[APLICAEN](http://aplicaen.fr) base sur Foundation. Ce thème est basé sur [FoundationPress](https://github.com/olefredrik/foundationpress/) et propose quelques pages templates basées sur AdvancedCustomField afin de répondre aux exigeances de design d[APLICAEN](http://aplicaen.fr).
+Thème Wordpress pour le site d'[APLICAEN](http://aplicaen.fr) base sur Foundation. Ce thème est basé sur [FoundationPress](https://github.com/olefredrik/foundationpress/) et propose quelques pages templates basées sur AdvancedCustomField afin de répondre aux exigeances de design d'[APLICAEN](http://aplicaen.fr).
 
 
 ## Requirements
