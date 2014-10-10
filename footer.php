@@ -40,7 +40,7 @@
             |
             <a class="rolling" href="/?page_id=63">Déposer un appel d'offre</a>
             |
-            <a class="rolling" href="#">Mentions légales</a>
+            <a class="rolling" href="/?page_id=184">Mentions légales</a>
         </div>
         <div id="copyright" class="large-12 columns text-center">
             © APLICAEN, élèves-entrepreneurs 2014 - Tous droits réservés
