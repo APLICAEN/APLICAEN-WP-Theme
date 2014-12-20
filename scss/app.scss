@@ -82,6 +82,7 @@ footer.row {
 #mentions {
     margin-top: $footer-scale;
     line-height: $footer-scale;
+    color : white !important;
     #plaquette a {
         color : $alert-color;
     }
@@ -207,7 +208,7 @@ $dc-top-bar-scale: 7rem;
  *********************************************/
 
 .roll {
-    display: inline-block; /* give it a layout */    
+    display: inline-block; /* give it a layout */
     overflow: hidden;
     vertical-align: top; /* just to be sure */
 
@@ -226,7 +227,7 @@ $dc-top-bar-scale: 7rem;
     -webkit-perspective-origin: 50% 50%;
        -moz-perspective-origin: 50% 50%;
         -ms-perspective-origin: 50% 50%;
-            perspective-origin: 50% 50%;    
+            perspective-origin: 50% 50%;
 
 }
 
@@ -236,7 +237,7 @@ $dc-top-bar-scale: 7rem;
 }
 
 .roll span {
-    display: block; /* give it a layout */ 
+    display: block; /* give it a layout */
     position: relative;
     padding: 0 2px;
 
@@ -290,9 +291,9 @@ $dc-top-bar-scale: 7rem;
        -moz-transform-origin: 50% 0%;
         -ms-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
-    
-    /* 
-    * translate3d => move up element to the top 
+
+    /*
+    * translate3d => move up element to the top
     *     rotateX => rotate till hidden
     */
     -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
