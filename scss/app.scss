@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .menu-item-plaquette a {
-    background-color: $alert-color !important;
-    border-bottom: 5px solid $alert-color !important;
+    // background-color: $alert-color !important;
+    border-bottom: 5px solid $mc_color !important;
 }
 
 $footer-scale: 2rem;
