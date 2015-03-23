@@ -10,7 +10,7 @@ get_header(); ?>
         <div class="large-12 columns">
             <ul class="example-orbit" data-orbit>
                 <li>
-                    <img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/photo_groupe.JPG" />
+                    <img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/photo_groupe.png" />
                 </li>
                 <li>
                     <img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/photo_groupe2.jpg" />
